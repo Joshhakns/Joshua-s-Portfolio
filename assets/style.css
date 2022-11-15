@@ -1,0 +1,121 @@
+:root{
+    --dark: black;
+    --light: white;
+    --purple: purple;
+    --grey: grey;
+    --delicous: blue; 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* Start of the Header Section*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: var(--dark);
+    color: var(--light);
+}
+
+header:hover {
+    transition-delay: 150ms;
+    color:var(--grey)
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: var(--purple);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:var(--grey)
+}
+/* End of the header section*/
+
+main {
+    display: flex;
+    max-width: 90%;
+    margin: 2% auto;
+}
+
+
+main header {
+background: var(--light)
+}
+
+h2 {
+    margin: 2% 0;
+    font-size: 200%;
+}
+
+.Projects {
+   width: 75%;
+   display: inline-flexbox;
+   margin-left: 25px;
+}
+
+
+.flex-container {
+    flex-direction: row;
+}
+
+.largebox{
+    border-style: solid;
+    border-width: 10px;
+    padding: 70px 0;
+    margin: auto;
+    width: 75;
+    flex: 2;
+}
+
+.largebox img {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+.box{
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 50;
+    flex: 1;
+}
+
+
+
+/* footer section */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align:left;
+    background: var(--dark);
+    color: var(--light);
+    margin-top: auto;
+}
+
+footer li {
+    text-align: right;
+    color: var(--light);
+}
