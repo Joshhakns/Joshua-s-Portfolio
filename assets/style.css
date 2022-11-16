@@ -4,6 +4,8 @@
     --purple: purple;
     --grey: grey;
     --blue: blue; 
+    --aquamarine: aquamarine;
+    --thecolor: #f6f8fa;
 }
 
 * {
@@ -11,9 +13,12 @@
 }
 
 body{
+    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: var(--thecolor)
 }
 
 /* Start of the Header Section*/
@@ -21,9 +26,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 40px;
     background: var(--dark);
-    color: var(--light);
+    color: var(--thecolor);
 }
 
 header:hover {
@@ -39,7 +44,7 @@ h1 {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 600px;
 }
 
 nav a {
@@ -86,10 +91,24 @@ h2 {
    margin-left: 25px; */
 }
 
+.Projects header {
+    background-color: var(--thecolor);
+    color: var(--dark);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
 
-/*.flex-container {
-    flex-direction: row;
-}*/
+.Projects a:hover {
+    color: var(--blue)
+}
+    .flex-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    }
+
 
 .largebox{
     border-style: solid;
@@ -101,11 +120,11 @@ h2 {
 }
 
 .largebox img {
-    width: 600px;
-    height: 500px;
+    width: 900px;
+    height: 800px;
     margin: auto;
     display: block;
-}
+} 
 
 .box{
     border-style: solid;
@@ -116,6 +135,12 @@ h2 {
     flex: 1;
 }
 
+.box img {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
 
 
 /* footer section */
@@ -133,4 +158,11 @@ footer {
 footer li {
     text-align: right;
     color: var(--light);
+}
+
+@media screen and (max-width:780px){
+    main,
+    nav{
+        flex-direction: column;
+    }    
 }
