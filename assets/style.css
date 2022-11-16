@@ -3,7 +3,11 @@
     --light: white;
     --purple: purple;
     --grey: grey;
-    --delicous: blue; 
+    --blue: blue; 
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body{
@@ -53,11 +57,12 @@ main {
     display: flex;
     max-width: 90%;
     margin: 2% auto;
+    font-family: Times 'Times New Roman', Times, serif;
 }
 
 
 main header {
-background: var(--light)
+background: var(--dark)
 }
 
 h2 {
@@ -66,15 +71,25 @@ h2 {
 }
 
 .Projects {
-   width: 75%;
-   display: inline-flexbox;
-   margin-left: 25px;
-}
-
-
-.flex-container {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 90%;
+    height:100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+   /*width: 75%;
+   display: inline-flexbox;
+   margin-left: 25px; */
 }
+
+
+/*.flex-container {
+    flex-direction: row;
+}*/
 
 .largebox{
     border-style: solid;
