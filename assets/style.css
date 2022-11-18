@@ -1,3 +1,4 @@
+/*Sets the color variable to be called upon*/
 :root{
     --dark: black;
     --light: white;
@@ -7,11 +8,12 @@
     --aquamarine: aquamarine;
     --thecolor: #f6f8fa;
 }
-
+/*Sets the border box sizing for every element*/
 * {
     box-sizing: border-box;
 }
 
+/*sets the standards for the entire page.*/
 body{
     margin: 0;
     display: flex;
@@ -66,10 +68,6 @@ main {
     font-family: Times 'Times New Roman', Times, serif;
 }
 
-
-main header {
-background: var(--dark)
-}
 
 h2 {
     margin: 2% 0;
@@ -166,7 +164,7 @@ div section a:focus {
 }
 
 .aboutme {
-    font-size:larger;
+    font-size:xx-large;
     font-weight: 600;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -194,3 +192,4 @@ footer li {
         flex-wrap: wrap;
     }
 }
+
