@@ -11,3 +11,4 @@
 ## N/A
 # Screenshot Link
 ## Here is the URL it gave me to the screenshot. ![Picture of deployed website](https://user-images.githubusercontent.com/115948325/202596771-73e29843-523b-4b49-bfe1-b4fed91f9052.PNG)
+# ![Repository Snapshot](https://user-images.githubusercontent.com/115948325/202602620-e2efdcc1-1e0b-43ca-98e4-ee9de29f84cc.PNG)
