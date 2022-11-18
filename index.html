@@ -1,6 +1,9 @@
+<!--Declares the document type-->
 <!DOCTYPE html>
 <html lang="en-us">
 
+
+<!--header section-->
 <head>
     <title>My Portfolio</title>
     <meta charset="UTF-8" />
@@ -8,30 +11,36 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
+<!--start of the body section-->
+
 <body>
     <header>
         <h1>Joshua Hawkins' Portfolio</h1>
+        <!--start of the nav bar-->
         <nav>
             <ul>
                 <li>
-                    <a href="#largebox">Project 1</a>
+                    <a href="#First Project">Project 1</a>
                 </li>
                 <li>
-                    <a href="#box">Project 2</a>
+                    <a href="#Second Project">Project 2</a>
                 </li>
                 <li>
-                    <a href="#box">Project 3</a>
+                    <a href="#Third Project">Project 3</a>
                 </li>
                 <li>
-                    <a href="#box">Project 4</a>
+                    <a href="#Fourth Project">Project 4</a>
                 </li>
                 <li>
-                    <a href="#box">Project 5</a>
+                    <a href="#Fifth Project">Project 5</a>
                 </li>
             </ul>
         </nav>
+        <!--end of the nav bar-->
     </header>
 
+
+<!--start of the main section-->
     <main>
         <section class="flex-container">
             <div class="header">
@@ -43,27 +52,28 @@
                 at programming!
                     </p>
             </div>
+            <!--This section deals with the pictures underneath the about me section-->
             <div class="Projects">
-             <section class="largebox">
+             <section id="First Project" class="largebox">
                 <header>First Project</header>
                 <a href="https://joshhakns.github.io/Challenge-1-Horiseon/"> <img src="./assets/images/Profilepic.jpg" alt="placeholder txt 1"a>
              </section>
             <div class="row">
-             <section class="box">
+             <section id="Second Project" class="box">
                 <header>Second Project</header>
                 <a href="./assets/images/Flowers.jpg"> <img src="./assets/images/Flowers.jpg" alt="placeholder txt 1" a>
              </section>
-             <section class="box">
+             <section id="Third Project" class="box">
                 <header>Third Project</header>
                 <a href="./assets/images/Forest.jpg"> <img src="./assets/images/Forest.jpg" alt="placeholder txt 1" a> 
              </section>
             </div>
             <div class="row">
-             <section class="box">
+             <section id="Fourth Project" class="box">
                 <header>Fourth Project</header>
                 <a href="./assets/images/Mountains.jpg"> <img src="./assets/images/Mountains.jpg" alt="placeholder txt 1" a> 
              </section>
-             <section class="box">
+             <section id="Fifth Project" class="box">
                 <header>Fifth Project</header>
                 <a href="./assets/images/River.jpg"> <img src="./assets/images/River.jpg" alt="placeholder txt 1" a> 
              </section>
@@ -72,11 +82,11 @@
         </section>
     </main>
     
-
+<!--The footer section-->
     <footer>
         <span>Thank you for Visiting!</span>
         <li>
-            <a href="Contact Me">Contact Me</a>
+            <a href="#Contact Me">Contact Me</a>
         </li>
     </footer>
 </body>
